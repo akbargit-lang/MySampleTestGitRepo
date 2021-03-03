@@ -11,7 +11,7 @@ public class MySampleAApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		System.out.println("Hello World from GIT-2!!...");
+		System.out.println("Hello World from GIT-1!!...");
 		return "Hello World !!...";
 	}
 	
